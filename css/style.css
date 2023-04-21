@@ -1,0 +1,82 @@
+.main, .sub {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.main {
+    width: 100%;
+}
+
+.sub {
+    width: 50%;
+    background-color: rgb(8, 42, 77);
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.date {
+    color: #98A1B3;
+}
+
+#portrait {
+    margin-top: auto;
+    margin-right: 20px;
+}
+
+#image {
+    border-radius: 50%;
+}
+
+h1, h2 {
+    font-family: "Arial Narrow", Helvetica, sans-serif;
+}
+
+h3, h4, p, sub, ul {
+    font-family: "Calibri", Verdana, sans-serif;
+}
+
+h1, h3, h4 {
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-top: 5px;
+}
+
+a:link {
+    color: magenta;
+  }
+
+a:hover {
+    color: palevioletred;
+}
+
+a:active {
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+i {
+    width: 24px;
+    height: 24px;
+    display: inline-block !important;
+}
+
+.sprite-Brazil {
+    background-image: url('https://flagicons.lipis.dev/flags/4x3/br.svg');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-USA {
+    background-image: url('https://flagicons.lipis.dev/flags/4x3/us.svg');
+    background-repeat: no-repeat;
+    display: block;
+}
